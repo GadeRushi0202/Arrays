@@ -15,7 +15,7 @@ namespace Array
 
             Console.WriteLine("Enter a number to be search:-");
             int num = Convert.ToInt32(Console.ReadLine());
-            int index = -1;
+            int index = 1;
 
             for(int i=0; i<arr.Length; i++)
             {
@@ -25,7 +25,7 @@ namespace Array
                     break;
                 }
             }
-            if(index != -1)
+            if(index != 1)
             {
                 Console.WriteLine($"The number {num} is found at index{index}") ;
             }

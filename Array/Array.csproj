@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Array.Descending</StartupObject>
+    <StartupObject>Array.DuplicateArray</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,6 +55,7 @@
     <Compile Include="Count.cs" />
     <Compile Include="Descending.cs" />
     <Compile Include="Duplicate.cs" />
+    <Compile Include="DuplicateArray.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Even.cs" />
     <Compile Include="Even1.cs" />

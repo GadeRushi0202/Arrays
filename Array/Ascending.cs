@@ -17,11 +17,12 @@ namespace Array
             {
                 for(int j=0;j<arr.Length; j++)
                 {
-                    if (arr[i] < arr[j])
+                    if (arr[i] < arr[j])                        //10<10  --> False //10<5   -->False  //10<96   -->True  //10<84   -->true //10<12 --> true
+
                     {
-                        int temp = arr[i];
-                        arr[i] = arr[j];
-                        arr[j] = temp;
+                        int temp = arr[i]; //0 0
+                        arr[i] = arr[j];   //0 2
+                        arr[j] = temp;     //2 10
                     }
                 }
             }
